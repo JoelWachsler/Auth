@@ -1,0 +1,13 @@
+---
+
+graphql:
+  packages:
+    - "se.wachsler.auth.api"
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+server:
+  error:
+    include-message: always
+jwt:
+  secret: test
